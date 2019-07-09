@@ -70,6 +70,7 @@ export default class MembersList extends Component {
 
 
     render() {
+
         return (
             <React.Fragment>
                 <table className="table is-striped">
@@ -86,13 +87,21 @@ export default class MembersList extends Component {
                     </thead>
                     <tbody>
                         {this.state.members.map(member=>{
-                    
+                                
+                                let permissionStr = ''
+                                if(member.permission == 1) permissionStr = 'master'
+                                else if(member.permission == 2) permissionStr = 'diamond'
+                                else if(member.permission == 3) permissionStr = 'platinum'
+                                else if(member.permission == 4) permissionStr = 'gold'
+                                else if(member.permission == 5) permissionStr = 'silver'
+                                else if(member.permission == 6) permissionStr = 'bronze'
+
                                 return <tr key={member.pk}>
                                     <td>{member.pk}  </td>
                                     <td>{member.name}</td>
                                     <td>{member.account}</td>
                                     <td>{member.password}</td>
-                                    <td>{member.permission}</td>
+                                    <td>{permissionStr}</td>
                                     <td>{member.createdAt.substring(0, 10)}</td>
                                     <td>
                                         <p className="buttons">
