@@ -4,12 +4,12 @@
 
 <div>
   <div width='100%'>
-    <img src="./app/assets/images/screenshot-main-1.jpg" width='48%'/>
-    <img src="./app/assets/images/screenshot-main-4.jpg" width='48%'/>
+    <img src="./screenshots/list_prev.jpg" width='48%'/>
+    <img src="./screenshots/list_next.jpg" width='48%'/>
   </div>
   <div width='100%'>
-    <img src="./app/assets/images/screenshot-main-3.jpg" width='48%'/>
-    <img src="./app/assets/images/screenshot-main-2.jpg" width='48%'/>
+    <img src="./screenshots/update.jpg" width='48%'/>
+    <img src="./screenshots/create.jpg" width='48%'/>
   </div>
 </div>
 <br>
@@ -235,7 +235,7 @@
 > | --- | --- | --- | --- |
 > |**GET** |/api/members|List|모든 Member 조회|
 >
-> <img src="./app/assets/images/screenshot-home.jpg" alt="screenshot-index" width='62%' height='62%'/>
+> <img src="./screenshots/list.jpg" alt="screenshot-index" width='62%' height='62%'/>
 > <br/>
 > <br/>
 > 
@@ -246,7 +246,7 @@
 > |**GET** |/api/members/member_id|Read|하나의 Member 조회|
 > |**UPDATE** |/api/members/member_id|Update|하나의 Member 수정|
 >
-> <img src="./app/assets/images/screenshot-show.jpg" alt="screenshot-show" width='62%' height='62%'/>
+> <img src="./screenshots/update.jpg" alt="screenshot-show" width='62%' height='62%'/>
 > <br/>
 > <br/>
 >  
@@ -256,7 +256,7 @@
 > | --- | --- | --- | --- |
 > |**GET** |/api/member|Create|Member 생성 Form|
 >
-> <img src="./app/assets/images/screenshot-new.jpg" alt="screenshot-new" width='62%' height='62%'/>
+> <img src="./screenshots/create.jpg" alt="screenshot-new" width='62%' height='62%'/>
 > <br/>
 > <br/>
 > 
