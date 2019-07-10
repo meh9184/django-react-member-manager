@@ -191,14 +191,14 @@
 > - Permission 초기 값들(6개 권한 값들)만 생성된 상태
 > - `SELECT * FROM members_manager.members_permission` 결과
 > 
-> |  ID |  NAME |
-> | --- | --- |
-> |1 |master|
-> |2 |diamond|
-> |3 |platinum|
-> |4 |gold|
-> |5 |silver|
-> |6 |bronze|
+>   |  ID |  NAME |
+>   | --- | --- |
+>   |1 |master|
+>   |2 |diamond|
+>   |3 |platinum|
+>   |4 |gold|
+>   |5 |silver|
+>   |6 |bronze|
 >
 > - master 권한의 member 와 랜덤한 member들을 생성하기 위해 
 > - 새로운 쉘을 생성하여 `/backend/venv` 가상환경 activate 시키고, `/backend/django_member_manager` 폴더로 이동
