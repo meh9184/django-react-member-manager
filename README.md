@@ -243,6 +243,7 @@
 >   <img src="./screenshots/list.JPG" alt="screenshot-index"/>
 > </kbd>
 > <br/>
+> <br/>
 > 
 > ### Read / Update
 > 
@@ -254,6 +255,7 @@
 > <kbd>
 >   <img src="./screenshots/update.JPG" alt="screenshot-show"/>
 > </kbd>
+> <br/>
 > <br/>
 >  
 > ### Create
