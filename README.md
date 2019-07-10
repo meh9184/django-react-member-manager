@@ -296,6 +296,5 @@
 > 
 > - https://docs.djangoproject.com/ko/2.2/
 > - https://velog.io/@odini/series/React-%EA%B3%B5%EC%8B%9D%EB%AC%B8%EC%84%9C
-> - https://medium.com/@shaircast/ruby-on-rails-on-wsl-%EC%9C%88%EB%8F%84%EC%9A%B0-10%EC%97%90%EC%84%9C-%EB%A0%88%EC%9D%BC%EC%A6%88-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-9a6164df51f
 > - https://docs.microsoft.com/ko-kr/windows/wsl/install-win10
 > - https://gorails.com/setup/windows/10
