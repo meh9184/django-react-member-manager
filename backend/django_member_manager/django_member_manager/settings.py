@@ -88,8 +88,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'member_manager',
-        'USER': 'root',
-        'PASSWORD': 'ansdmsghks9184',
+        'USER': 'INSERT HERE',      # 여기에 입력
+        'PASSWORD': 'INSERT HERE',  # 여기에 입력
         'HOST': '127.0.0.1',
         'PORT': '3306'
     }
