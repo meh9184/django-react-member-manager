@@ -237,7 +237,7 @@
 > | --- | --- | --- | --- |
 > |**GET** |/api/members|List|모든 Member 조회|
 >
-> <img src="./screenshots/list.JPG" alt="screenshot-index" width='62%' height='62%'/>
+> <img src="./screenshots/list.JPG" alt="screenshot-index" width='80%' height='80%'/>
 > <br/>
 > <br/>
 > 
@@ -248,7 +248,7 @@
 > |**GET** |/api/members/member_id|Read|하나의 Member 조회|
 > |**UPDATE** |/api/members/member_id|Update|하나의 Member 수정|
 >
-> <img src="./screenshots/update.JPG" alt="screenshot-show" width='62%' height='62%'/>
+> <img src="./screenshots/update.JPG" alt="screenshot-show" width='80%' height='80%'/>
 > <br/>
 > <br/>
 >  
@@ -258,7 +258,7 @@
 > | --- | --- | --- | --- |
 > |**GET** |/api/member|Create|Member 생성 Form|
 >
-> <img src="./screenshots/create.JPG" alt="screenshot-new" width='62%' height='62%'/>
+> <img src="./screenshots/create.JPG" alt="screenshot-new" width='80%' height='80%'/>
 > <br/>
 > <br/>
 > 
