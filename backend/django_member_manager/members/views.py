@@ -19,7 +19,7 @@ def members_list(request):
 		previous_page = 1
 		members = Member.objects.all()
 		page = request.GET.get('page', 1)
-		paginator = Paginator(members, 5)
+		paginator = Paginator(members, 10)
 
 		try:
 			data = paginator.page(page)
