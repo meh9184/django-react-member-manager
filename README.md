@@ -4,12 +4,12 @@
 
 <div>
   <div width='100%'>
-    <img src="./screenshots/list_prev.JPG" width='48%'/>
-    <img src="./screenshots/list_next.JPG" width='48%'/>
+    <img src="./screenshots/list_prev.jpg" width='48%'/>
+    <img src="./screenshots/list_next.jpg" width='48%'/>
   </div>
   <div width='100%'>
-    <img src="./screenshots/update.JPG" width='48%'/>
-    <img src="./screenshots/create.JPG" width='48%'/>
+    <img src="./screenshots/update.jpg" width='48%'/>
+    <img src="./screenshots/create.jpg" width='48%'/>
   </div>
 </div>
 <br>
@@ -72,13 +72,13 @@
 ### Models
 > 
 > **Database schema**
-> <img src="./app/assets/images/data-schema.jpg" alt="database-schema"/>
+> <img src="./screenshots/database_schema.png" alt="database-schema"/>
 
 
 ### System configuration
 > 
 > **Service flow**
-> <img src="./app/assets/images/system-configuration.jpg" alt="system-configuration"/>
+> <img src="./screenshots/system_flow.jpg" alt="system-configuration"/>
 
 <br/>
 
@@ -235,7 +235,7 @@
 > | --- | --- | --- | --- |
 > |**GET** |/api/members|List|모든 Member 조회|
 >
-> <img src="./screenshots/list.JPG" alt="screenshot-index" width='62%' height='62%'/>
+> <img src="./screenshots/list.jpg" alt="screenshot-index" width='62%' height='62%'/>
 > <br/>
 > <br/>
 > 
@@ -246,7 +246,7 @@
 > |**GET** |/api/members/member_id|Read|하나의 Member 조회|
 > |**UPDATE** |/api/members/member_id|Update|하나의 Member 수정|
 >
-> <img src="./screenshots/update.JPG" alt="screenshot-show" width='62%' height='62%'/>
+> <img src="./screenshots/update.jpg" alt="screenshot-show" width='62%' height='62%'/>
 > <br/>
 > <br/>
 >  
@@ -256,7 +256,7 @@
 > | --- | --- | --- | --- |
 > |**GET** |/api/member|Create|Member 생성 Form|
 >
-> <img src="./screenshots/create.JPG" alt="screenshot-new" width='62%' height='62%'/>
+> <img src="./screenshots/create.jpg" alt="screenshot-new" width='62%' height='62%'/>
 > <br/>
 > <br/>
 > 
