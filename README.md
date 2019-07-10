@@ -249,7 +249,6 @@
 > |**UPDATE** |/api/members/member_id|Update|하나의 Member 수정|
 >
 > <img src="./screenshots/update.JPG" alt="screenshot-show" width='90%'/>
-> <br/>
 >  
 > ### Create
 > 
