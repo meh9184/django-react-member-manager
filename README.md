@@ -240,9 +240,8 @@
 > |**GET** |/api/members|List|모든 Member 조회|
 >
 > <kbd>
->   <img src="./screenshots/list.JPG" alt="screenshot-index" width='90%'/>
+>   <img src="./screenshots/list.JPG" alt="screenshot-index"/>
 > </kbd>
-> <br/>
 > <br/>
 > 
 > ### Read / Update
@@ -253,8 +252,9 @@
 > |**UPDATE** |/api/members/member_id|Update|하나의 Member 수정|
 >
 > <kbd>
->   <img src="./screenshots/update.JPG" alt="screenshot-show" width='90%'/>
+>   <img src="./screenshots/update.JPG" alt="screenshot-show"/>
 > </kbd>
+> <br/>
 >  
 > ### Create
 > 
@@ -263,7 +263,7 @@
 > |**GET** |/api/member|Create|Member 생성 Form|
 >
 > <kbd>
->   <img src="./screenshots/create.JPG" alt="screenshot-new" width='90%'/>
+>   <img src="./screenshots/create.JPG" alt="screenshot-new"/>
 > </kbd>
 > <br/>
 > <br/>
