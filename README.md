@@ -73,14 +73,14 @@
 > 
 > **Database schema**
 > 
-> <img src="./screenshots/database_schema.png" alt="database-schema" width='90%'/>
+> <img src="./screenshots/database_schema.png" alt="database-schema" width='50%'/>
 
 
 ### System configuration
 > 
 > **Service flow**
 > 
-> <img src="./screenshots/system_flow.jpg" alt="system-configuration" width='90%'/>
+> <img src="./screenshots/system_flow.jpg" alt="system-configuration" width='70%'/>
 
 <br/>
 
