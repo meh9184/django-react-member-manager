@@ -209,10 +209,10 @@
 > ```
 >
 > - makemembers 커스텀 명령어로 n개의 랜덤한 member 생성
-> - Usage Ex : python manage.py makemembers 10  -> 10개의 랜덤한 member 생성
-> - Usage Ex : python manage.py makemembers 330 -> 330개의 랜덤한 member 생성
+> - Usage ex) python manage.py makemembers 30  -> 30개의 랜덤한 member 생성
+> - Usage ex) python manage.py makemembers 220 -> 220개의 랜덤한 member 생성
 > ```bash
-> $ python manage.py makemembers 10
+> $ python manage.py makemembers 30
 > ```
 > 
 > - 웹 브라우저로 접속하여 데이터 잘 추가 되었는지 확인
