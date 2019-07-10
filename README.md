@@ -76,7 +76,7 @@
 > 
 > **Database schema**
 > 
-> <img src="./screenshots/database_schema.png" alt="database-schema" width='50%'/>
+> <img src="./screenshots/database_schema.png" alt="database-schema" width='60%'/>
 
 
 ### System configuration
