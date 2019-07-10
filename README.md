@@ -32,9 +32,9 @@
 
 
 ### Requirements
-> - [Python 3.6](https://www.ruby-lang.org/en/news/2018/10/18/ruby-2-5-3-released/) 
-> - [Django 2.2.3](https://rvm.io/)
-> - [React 16.8.6](https://rubygems.org/gems/bundler/versions/2.0.1)
+> - [Python 3.6](https://www.python.org/downloads/release/python-360/) 
+> - [Django 2.2.3](https://docs.djangoproject.com/en/2.2/releases/2.2.3/)
+> - [React 16.8.6](https://www.npmjs.com/package/react?activeTab=versions)
 > - [MySQL 5.6](https://dev.mysql.com/downloads/mysql/5.6.html)
 
 
@@ -53,7 +53,7 @@
 > |**PUT** |/api/members/member_id|Update|하나의 Member 수정|
 > |**DELETE** |/api/members/member_id|Delete|하나의 Member 삭제|
 > 
-> **Route**
+> **Urls**
 > 
 > - `backend/django_member_manager/django_member_manager/urls.py`
 > ```python
@@ -126,7 +126,7 @@
 > ```bash
 > $ cd backend
 > ```
-
+>
 > - virtaulenv 설치 안됐다면 apt-get으로 설치하고,
 > - virtaulenv 명령어로 현재 디렉터리에 가상환경 `venv` 생성 및 활성화
 > ```bash
@@ -134,23 +134,23 @@
 > $ virtualenv --python=python3 venv
 > $ source venv/bin/activate
 > ```
-
+>
 > - 현재 가상 환경에 requirements.txt에 적혀있는 dependencies 설치
 > ```bash
 > $ pip install -r requirements.txt
 > ```
-
+>
 > - DB 모델을 migrate 하기 위해 `django-react-member-manager/backend/django_member_manager/`로 이동
 > ```bash
 > $ cd django_member_manager
 > ```
-
+>
 > - DB migration 생성하고 migrate 명령어를 통해 MySQL에 테이블 생성
 > ```bash
 > $ python manage.py makemigrations
 > $ python manage.py migrate
 > ```
-
+>
 > - migrate 작업 완료됐으면 서버 실행
 > ```bash
 > $ python manage.py runserver
@@ -162,14 +162,14 @@
 > ```bash
 > $ cd frontend
 > ```
-
+>
 > - yarn 설치 안됐다면 apt-get으로 설치하고,
 > - yarn install 명령어로 노드 모듈 셋업
 > ```bash
 > $ sudo apt-get install yarn
 > $ yarn install
 > ```
-
+>
 > - install 완료 됐으면 react-app 실행
 > ```bash
 > $ yarn start
@@ -195,19 +195,19 @@
 > |4 |gold|
 > |5 |silver|
 > |6 |bronze|
-
+>
 > - master 권한의 member 와 랜덤한 member들을 생성하기 위해 
 > - 새로운 쉘을 생성하여 `/backend/django_member_manager` 폴더로 이동
 > ```bash
 > $ cd backend
 > $ cd django_member_manager
 > ```
- 
+>
 > - createmastermember 커스텀 명령어로 master member 생성
 > ```bash
 > $ python manage.py createmastermember
 > ```
-
+>
 > - makemembers 커스텀 명령어로 n개의 랜덤한 member 생성
 > - Usage Ex : python manage.py makemembers 10  -> 10개의 랜덤한 member 생성
 > - Usage Ex : python manage.py makemembers 330 -> 330개의 랜덤한 member 생성
