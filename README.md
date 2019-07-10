@@ -47,14 +47,14 @@
 > 
 > - 회원(Member) 모델을 RESTful하게 리소스를 모델링
 > 
-> |  HTTP |  Path |  Method |  목적 |
-> | --- | --- | --- | --- |
-> |**GET** |/api/member|Create|Member 생성 Form|
-> |**GET** |/api/members|List|모든 Member 조회|
-> |**POST** |/api/members|Create|하나의 Member 생성|
-> |**GET** |/api/members/member_id|Read|하나의 Member 조회|
-> |**PUT** |/api/members/member_id|Update|하나의 Member 수정|
-> |**DELETE** |/api/members/member_id|Delete|하나의 Member 삭제|
+>   |  HTTP |  Path |  Method |  목적 |
+>   | --- | --- | --- | --- |
+>   |**GET** |/api/member|Create|Member 생성 Form|
+>   |**GET** |/api/members|List|모든 Member 조회|
+>   |**POST** |/api/members|Create|하나의 Member 생성|
+>   |**GET** |/api/members/member_id|Read|하나의 Member 조회|
+>   |**PUT** |/api/members/member_id|Update|하나의 Member 수정|
+>   |**DELETE** |/api/members/member_id|Delete|하나의 Member 삭제|
 > 
 > **Urls**
 > 
@@ -200,6 +200,7 @@
 >   |5 |silver|
 >   |6 |bronze|
 >
+> 
 > - master 권한의 member 와 랜덤한 member들을 생성하기 위해 
 > - 새로운 쉘을 생성하여 `/backend/venv` 가상환경 activate 시키고, `/backend/django_member_manager` 폴더로 이동
 > ```bash
