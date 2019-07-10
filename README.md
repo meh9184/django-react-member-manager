@@ -4,10 +4,14 @@
 
 <div>
   <div width='100%'>
-    <img src="./screenshots/list_prev.JPG"/>
+    <kbd>
+      <img src="./screenshots/list_prev.JPG"/>
+    </kbd>
   </div>
   <div width='100%'>
-    <img src="./screenshots/create.JPG"/>
+    <kbd>
+      <img src="./screenshots/create.JPG"/>
+    </kbd>
   </div>
 </div>
 <br>
