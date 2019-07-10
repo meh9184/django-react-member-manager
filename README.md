@@ -4,12 +4,12 @@
 
 <div>
   <div width='100%'>
-    <img src="./screenshots/list_prev.JPG" width='98%'/>
-    <img src="./screenshots/list_next.JPG" width='98%'/>
+    <img src="./screenshots/list_prev.JPG" width='48%'/>
+    <img src="./screenshots/list_next.JPG" width='48%'/>
   </div>
   <div width='100%'>
-    <img src="./screenshots/update.JPG" width='98%'/>
-    <img src="./screenshots/create.JPG" width='98%'/>
+    <img src="./screenshots/update.JPG" width='48%'/>
+    <img src="./screenshots/create.JPG" width='48%'/>
   </div>
 </div>
 <br>
