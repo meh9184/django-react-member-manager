@@ -189,8 +189,7 @@
 > - 위의 Step대로 진행하여 서버 setting 및 run까지 완료했다면, 현재 DB는 비어있고
 > - python manage.py migrate 명령에서 실행한 002_create_permissions.py를 통해 
 > - Permission 초기 값들(6개 권한 값들)만 생성된 상태
-> - Permission 테이블 조회
-> ```mysql
+> ```bash
 > mysql> SELECT * FROM members_manager.members_permission
 > ```
 >   |  ID |  NAME |
