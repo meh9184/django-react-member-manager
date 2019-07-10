@@ -201,9 +201,10 @@
 > |6 |bronze|
 >
 > - master 권한의 member 와 랜덤한 member들을 생성하기 위해 
-> - 새로운 쉘을 생성하여 `/backend/django_member_manager` 폴더로 이동
+> - 새로운 쉘을 생성하여 `/backend/venv` 가상환경 activate 시키고, `/backend/django_member_manager` 폴더로 이동
 > ```bash
 > $ cd backend
+> $ source venv/bin/activate
 > $ cd django_member_manager
 > ```
 >
