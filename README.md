@@ -199,7 +199,7 @@
 >   |4 |gold|
 >   |5 |silver|
 >   |6 |bronze|
->
+> </br>
 > 
 > - master 권한의 member 와 랜덤한 member들을 생성하기 위해 
 > - 새로운 쉘을 생성하여 `/backend/venv` 가상환경 activate 시키고, `/backend/django_member_manager` 폴더로 이동
