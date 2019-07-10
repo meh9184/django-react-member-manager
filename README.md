@@ -76,17 +76,13 @@
 > 
 > **Database schema**
 > 
-> <kbd>
 >   <img src="./screenshots/database_schema.png" alt="database-schema" width='60%'/>
-> </kbd>
 
 ### System configuration
 > 
 > **Service flow**
 > 
-> <kbd>
 >   <img src="./screenshots/system_flow.jpg" alt="system-configuration" width='70%'/>
-> </kbd>
 
 <br/>
 
@@ -243,7 +239,9 @@
 > | --- | --- | --- | --- |
 > |**GET** |/api/members|List|모든 Member 조회|
 >
-> <img src="./screenshots/list.JPG" alt="screenshot-index" width='90%'/>
+> <kbd>
+>   <img src="./screenshots/list.JPG" alt="screenshot-index" width='90%'/>
+> </kbd>
 > <br/>
 > <br/>
 > 
@@ -254,7 +252,9 @@
 > |**GET** |/api/members/member_id|Read|하나의 Member 조회|
 > |**UPDATE** |/api/members/member_id|Update|하나의 Member 수정|
 >
-> <img src="./screenshots/update.JPG" alt="screenshot-show" width='90%'/>
+> <kbd>
+>   <img src="./screenshots/update.JPG" alt="screenshot-show" width='90%'/>
+> </kbd>
 >  
 > ### Create
 > 
@@ -262,7 +262,9 @@
 > | --- | --- | --- | --- |
 > |**GET** |/api/member|Create|Member 생성 Form|
 >
-> <img src="./screenshots/create.JPG" alt="screenshot-new" width='90%'/>
+> <kbd>
+>   <img src="./screenshots/create.JPG" alt="screenshot-new" width='90%'/>
+> </kbd>
 > <br/>
 > <br/>
 > 
