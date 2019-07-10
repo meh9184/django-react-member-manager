@@ -267,17 +267,11 @@
 
 ## *Addition Commentary*
 > 
-### Some rules
-> - 가독성과 크롤링 시간 효율을 위해 크롤링 수행시 Movie 및 TV의 cast와 crew는 최대 5개씩만 수집하도록 제한하였으며, Person의 영화 출연작과 TV 출연작 역시 5개씩 수집하도록 제한하였습니다.
-> - Home 인덱스 페이지에서 Movies, Tvs, People 각각 3개의 대표 데이터는 무작위로 뽑고, 이미지가 존재하는 data 중에서 선별합니다.
-> - Movie, Tv 인덱스 페이지에서 데이터는 업데이트 시간 내림차순으로 정렬합니다.
-> - People 인덱스 페이지에서 데이터는 업데이트 시간 오름차순으로 정렬합니다.
-> 
-
 ### Issues
-> - 현재의 Crawler 는 사실상 평점/인기 높은 데이터를 순차적으로 가져오는 Scraper 정도 되는것 같음. API를 통해 리소스들에 타고 들어가면서 데이터를 수집하는 정통적인 Crawler 개발 필요
-> - TV의 에피소드, 시리즈 정보는 데이터 모델링 하지 못함. Ruby on Rails 의 모델링 문법과 방법에 대해 더 공부할 필요 있음.
-> 
+> - 기한 내에 로그인 기능 및 회원관리 권한 처리는 구현하지 못했습니다.
+> - master 권한을 갖는 회원은 단 1명으로 제한시켰습니다.
+> - 그러나, 서버/DB 단에서 제어하는 것이 아닌 Frontend 상에서 회원을 생성하는 경우 자체적으로 걸러내도록 구현하였습니다.
+> - 따라서 DB에 직접적으로 접근한다면 1명 이상의 회원이 master 권한을 갖는 경우가 발생할 수 있습니다.
 
 ### Tools for Windows OS Users
 > - [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/ko-kr/windows/wsl/install-win10)
@@ -291,11 +285,8 @@
 
 ## *References*
 > 
+> - https://docs.djangoproject.com/ko/2.2/
+> - https://velog.io/@odini/series/React-%EA%B3%B5%EC%8B%9D%EB%AC%B8%EC%84%9C
 > - https://medium.com/@shaircast/ruby-on-rails-on-wsl-%EC%9C%88%EB%8F%84%EC%9A%B0-10%EC%97%90%EC%84%9C-%EB%A0%88%EC%9D%BC%EC%A6%88-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-9a6164df51f
 > - https://docs.microsoft.com/ko-kr/windows/wsl/install-win10
 > - https://gorails.com/setup/windows/10
-> - https://medium.com/@colinrubbert/installing-ruby-on-rails-in-windows-10-w-bash-postgresql-e48e55954fbf
-> - https://github.com/luciuschoi/wsl_setting_for_rails
-> - https://medium.com/@joystar/%EC%9C%88%EB%8F%84%EC%9A%B0-wsl-18-04%EC%97%90%EC%84%9C-%EB%A0%88%EC%9D%BC%EC%A6%88-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-252b04dae45b
-> - https://rubykr.github.io/rails_guides/getting_started.html
-> 
