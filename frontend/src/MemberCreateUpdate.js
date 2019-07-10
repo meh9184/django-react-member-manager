@@ -28,7 +28,6 @@ class MemberCreateUpdate extends Component {
 
     handleChange = selectedOption => {
         this.setState({ selectedOption });
-        console.log(`Option selected:`, selectedOption);
     };
 
     componentDidMount() {
@@ -40,17 +39,17 @@ class MemberCreateUpdate extends Component {
                 this.refs.account.value = member.account;
                 this.refs.password.value = member.password;
                 
-                if(member.permission == 1)
+                if(member.permission === 1)
                     this.handleChange({value: member.permission, label: "master"});
-                if(member.permission == 2)
+                if(member.permission === 2)
                     this.handleChange({value: member.permission, label: "diamond"});
-                if(member.permission == 3)
+                if(member.permission === 3)
                     this.handleChange({value: member.permission, label: "platinum"});
-                if(member.permission == 4)
+                if(member.permission === 4)
                     this.handleChange({value: member.permission, label: "gold"});
-                if(member.permission == 5)
+                if(member.permission === 5)
                     this.handleChange({value: member.permission, label: "silver"});
-                if(member.permission == 6)
+                if(member.permission === 6)
                     this.handleChange({value: member.permission, label: "bronze"});
                 
             })
@@ -58,17 +57,45 @@ class MemberCreateUpdate extends Component {
     }
 
     handleCreate() {
-        membersService.createMember({
-            "name": this.refs.name.value,
-            "account": this.refs.account.value,
-            "password": this.refs.password.value,
-            "permission": this.state.selectedOption.value
-        }).then(response => {
-            alert("Member has been created.")
-            this.props.history.push("/")
-        }).catch(error=> {
-            alert(`There was an error with the form ${error}`)
-        });
+
+        if(this.state.selectedOption.value === 1){
+            membersService.getMembers().then(response => {
+                console.log(response.data);
+                const members = response.data;
+                for(let i=0; i < response.data.length; i++){
+                    if(members[i].permission === 1){
+                        throw "Aleady exist master Error"
+                    }
+                }
+                return
+            }).then( _ => {
+                membersService.createMember({
+                    "name": this.refs.name.value,
+                    "account": this.refs.account.value,
+                    "password": this.refs.password.value,
+                    "permission": this.state.selectedOption.value
+                }).then(response => {
+                    alert("Member has been created.")
+                    this.props.history.push("/")
+                }).catch(error=> {
+                    alert(`There was an error with the form ${error}`)
+                });
+            }).catch(error => {
+                alert("Aleady exist 'master' permission member")
+            })
+        }else{
+            membersService.createMember({
+                "name": this.refs.name.value,
+                "account": this.refs.account.value,
+                "password": this.refs.password.value,
+                "permission": this.state.selectedOption.value
+            }).then(response => {
+                alert("Member has been created.")
+                this.props.history.push("/")
+            }).catch(error=> {
+                alert(`There was an error with the form ${error}`)
+            });
+        }
     }
 
     handleUpdate(pk) {

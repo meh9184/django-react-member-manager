@@ -24,7 +24,7 @@ export default class MembersList extends Component {
     componentDidMount() {
         var self = this;
         membersService.getMembers().then(response => {
-            console.log(response.data);
+            
             self.setState({
                             members: response.data, 
                             previousPageURL:response.prevlink, 
@@ -89,12 +89,12 @@ export default class MembersList extends Component {
                         {this.state.members.map(member=>{
                                 
                                 let permissionStr = ''
-                                if(member.permission == 1) permissionStr = 'master'
-                                else if(member.permission == 2) permissionStr = 'diamond'
-                                else if(member.permission == 3) permissionStr = 'platinum'
-                                else if(member.permission == 4) permissionStr = 'gold'
-                                else if(member.permission == 5) permissionStr = 'silver'
-                                else if(member.permission == 6) permissionStr = 'bronze'
+                                if(member.permission === 1) permissionStr = 'master'
+                                else if(member.permission === 2) permissionStr = 'diamond'
+                                else if(member.permission === 3) permissionStr = 'platinum'
+                                else if(member.permission === 4) permissionStr = 'gold'
+                                else if(member.permission === 5) permissionStr = 'silver'
+                                else if(member.permission === 6) permissionStr = 'bronze'
 
                                 return <tr key={member.pk}>
                                     <td>{member.pk}  </td>
