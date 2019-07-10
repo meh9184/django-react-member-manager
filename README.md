@@ -8,6 +8,7 @@
       <img src="./screenshots/list_prev.JPG"/>
     </kbd>
   </div>
+  <br>
   <div width='100%'>
     <kbd>
       <img src="./screenshots/create.JPG"/>
