@@ -45,7 +45,7 @@
 
 > **Resource modeling**
 > 
-> - 회원(Member) 모델을 RESTful하게 리소스를 모델링
+> - 회원(Member) 리소스를 RESTful하게 모델링
 > 
 >   |  HTTP |  Path |  Method |  목적 |
 >   | --- | --- | --- | --- |
