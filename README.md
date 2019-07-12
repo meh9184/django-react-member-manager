@@ -121,7 +121,7 @@
 > 
 > - MySQL CLI 상에서 `member_manager` 이름으로 스키마 생성
 > ```bash
-> mysql> create schema member_manager
+> mysql> create schema member_manager;
 > ```
 
 ### Backend installation
@@ -190,7 +190,7 @@
 > - python manage.py migrate 명령에서 실행한 002_create_permissions.py를 통해 
 > - Permission 초기 값들(6개 권한 값들)만 생성된 상태
 > ```bash
-> mysql> SELECT * FROM members_manager.members_permission
+> mysql> SELECT * FROM members_manager.members_permission;
 > ```
 >   |  ID |  NAME |
 >   | --- | --- |
