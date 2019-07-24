@@ -142,6 +142,7 @@
 > - libmysqlclient 설치 및
 > - 현재 가상 환경에 requirements.txt의 dependencies 설치
 > ```bash
+> $ sudo apt-get install libmysqlclient-dev
 > $ pip install -r requirements.txt
 > ```
 >
