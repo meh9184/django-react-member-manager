@@ -139,7 +139,8 @@
 > $ source venv/bin/activate
 > ```
 >
-> - 현재 가상 환경에 requirements.txt에 적혀있는 dependencies 설치
+> - libmysqlclient 설치 및
+> - 현재 가상 환경에 requirements.txt의 dependencies 설치
 > ```bash
 > $ pip install -r requirements.txt
 > ```
