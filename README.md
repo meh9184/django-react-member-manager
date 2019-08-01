@@ -281,9 +281,9 @@
 ## *Addition Commentary*
 > 
 ### Issues
-> - master 권한을 갖는 회원은 단 1명으로 제한시켰습니다.
-> - 그러나, 서버/DB 단에서 제어하는 것이 아닌 Frontend 상에서 회원을 생성하는 경우 자체적으로 걸러내도록 구현하였습니다.
-> - 따라서 DB에 직접적으로 접근한다면 1명 이상의 회원이 master 권한을 갖는 경우가 발생할 수 있습니다.
+> - master 권한을 갖는 회원은 단 1명으로 제한
+> - 그러나, 서버/DB 단에서 제어하는 것이 아닌 Frontend 상에서 회원을 생성하는 경우 자체적으로 걸러내도록 구현
+> - 따라서 DB에 직접적으로 접근한다면 1명 이상의 회원이 master 권한을 갖는 경우 발생 
 
 ### Tools for Windows OS Users
 > - [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/ko-kr/windows/wsl/install-win10)
